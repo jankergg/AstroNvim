@@ -255,6 +255,11 @@ local astro_plugins = {
     event = "BufWritePost",
     config = function() require "configs.session_manager" end,
   },
+
+
+  ["typescript.nvim"] = {},
+  ["MunifTanjim/prettier.nvim"] = {},
+
 }
 
 if astronvim.updater.snapshot then

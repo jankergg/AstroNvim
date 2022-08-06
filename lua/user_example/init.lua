@@ -37,6 +37,7 @@ local config = {
   options = {
     opt = {
       relativenumber = false, -- sets vim.opt.relativenumber
+      guifont = 'jetbrains mono nerd font,dejavu sans mono,iosevka:h16'
     },
     g = {
       mapleader = " ", -- sets vim.g.mapleader
