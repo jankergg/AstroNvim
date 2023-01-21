@@ -94,6 +94,14 @@ local config = {
       --     require("lsp_signature").setup()
       --   end,
       -- },
+      require("typescript").setup({
+        disable_commands = false, -- prevent the plugin from creating Vim commands
+        debug = false, -- enable debug logging for commands
+        server = { -- pass options to lspconfig's setup method
+            on_attach = ...,
+        },
+      })
+
     },
     -- All other entries override the setup() call for default plugins
     ["null-ls"] = function(config)

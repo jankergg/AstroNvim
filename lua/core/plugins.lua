@@ -257,8 +257,9 @@ local astro_plugins = {
   },
 
 
-  ["typescript.nvim"] = {},
+  ["jose-elias-alvarez/typescript.nvim"] = {},
   ["MunifTanjim/prettier.nvim"] = {},
+  ["hrsh7th/nvim-compe"] = {},
 
 }
 
